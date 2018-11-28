@@ -1,0 +1,16 @@
+    <h2>Crear Noticia</h2>
+    <div>
+        <div class="form-group">
+            <label for="title">Titulo</label>
+            <input [(ngModel)]="new.title" type="text" class="form-control" id="title">
+        </div>
+        <div class="form-group">
+            <label for="body">Contenido</label>
+            <textarea [(ngModel)]="new.body" class="form-control" id="body"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="data">Data</label>
+            <input [(ngModel)]="new.date" type="text" class="form-control" id="data">
+        </div>
+        <button (click)="saveNew()" class="btn btn-primary btn-block">Guardar</button>
+    </div>

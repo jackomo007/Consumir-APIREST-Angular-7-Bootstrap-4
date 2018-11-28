@@ -1,0 +1,23 @@
+<table class="table">
+  <thead class="thead-light">
+  <tr>
+    <th scope="col">Id</th>
+    <th scope="col">Titulo</th>
+    <th scope="col">Contenido</th>
+    <th scope="col">Data</th>
+    <th scope="col"></th>
+  </tr>
+  </thead>
+  <tbody *ngFor="let new of news">
+  <tr>
+    <th scope="row">{{ new.id}}</th>
+    <td>{{ new.title}}</td>
+    <td>{{ new.body}}</td>
+    <td>{{new.date}}</td>
+    <td>
+      <a class="btn btn-primary btn-small" routerLink="/form/{{new.id}}">Ver/Editar</a>
+      <a class="btn btn-primary btn-small btn-danger" (click)="delete(new.id)">Eliminar</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
