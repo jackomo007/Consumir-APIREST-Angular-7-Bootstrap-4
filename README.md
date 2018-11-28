@@ -2,7 +2,7 @@
 <img src="https://cdn-images-1.medium.com/max/1600/1*dQUKii7IKy4RE8E_8iDlPg.png" width="300" height="200">
 </p>
 <p align="center">
-<h5>This project was generated with [Angular CLI] version 7.0.6.</h5>
+This project was generated with [Angular CLI] V- 7.0.6.
 </p>
 <br />
 <p align="center">
